@@ -1,0 +1,18 @@
+#忽略.vs文件夹
+.vs/
+
+#忽略执行文件夹
+ExecutableFile/
+
+#忽略中间文件夹
+TempFile/
+
+# 忽略所有图片文件及图片资源文件夹、网格资源文件夹（暂时不忽略）
+#*.jpg
+#*.png
+#*.gif
+#imgResources/
+#meshResources/
+
+#忽略NuGet包管理器生成的packages文件夹
+packages/
