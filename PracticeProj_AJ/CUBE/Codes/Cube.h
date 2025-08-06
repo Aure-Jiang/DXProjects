@@ -1,8 +1,8 @@
 #pragma once
-#include "Includes.h"
-#include "Tools.h"
-#include "Window.h"
-#include "DXFrame.h"
+#include "../../CommonCodes/Includes.h"
+#include "../../CommonCodes/Window.h"
+#include "../../CommonCodes/DXFrame.h"
+#include "../../CommonCodes/Tools.h"
 class Cube
 	: public DXFrame
 {

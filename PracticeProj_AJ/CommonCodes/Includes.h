@@ -9,6 +9,7 @@
 //#include <cmath>
 #include <d3d12.h>	//for d3d12
 #include "d3dx12.h"
+#include <DirectXTex.h>  //加载纹理，引用位置在 d3d12.h 之后
 #include <d3d12shader.h>
 #include <d3dcompiler.h>
 #include <wincodec.h>  //for WIC

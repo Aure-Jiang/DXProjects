@@ -16,31 +16,25 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Shaders\PixelShaderCubePBR.hlsl">
-      <Filter>资源文件</Filter>
-    </None>
-    <None Include="Shaders\VertexShaderCubePBR.hlsl">
+    <None Include="Shaders\Shader.hlsl">
       <Filter>资源文件</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Codes\Main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Codes\Cube.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="..\CommonCodes\DXFrame.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\CommonCodes\Window.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Codes\Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Codes\CubeTexture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Codes\Cube.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="..\CommonCodes\DXFrame.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -51,6 +45,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="..\CommonCodes\Window.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Codes\CubeTexture.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
