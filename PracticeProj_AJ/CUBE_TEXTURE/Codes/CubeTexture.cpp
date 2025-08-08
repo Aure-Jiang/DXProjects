@@ -750,7 +750,6 @@ void CubeTexture::LoadTexture(LPCWSTR fileName)
 		// 如果格式未知，默认使用R8G8B8A8_UNORM
 		mTextureFormat_fmt = DXGI_FORMAT_R8G8B8A8_UNORM;
 	}
-	
 }
 
 CubeTexture::CubeTexture(UINT width, UINT height, std::wstring name) :

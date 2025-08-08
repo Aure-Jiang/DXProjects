@@ -102,12 +102,12 @@ private:
 	ComPtr<ID3D12RootSignature>			mRootSignature_cp;
 	ComPtr<ID3D12PipelineState>			mPipelineState_cp;
 	//鼠标控制需要的变量
-	POINT                                 mLastMousePos;
-	float                                 mTheta = 0.0f;
-	float                                 mPhi = 0.0f;
-	XMMATRIX                              mRotationMatrix;
-	XMMATRIX                              mScaleMatrix;
-	float                                 mScaleFactor = 1.0f;
+	POINT                               mLastMousePos;
+	float                               mTheta = 0.0f;
+	float                               mPhi = 0.0f;
+	XMMATRIX                            mRotationMatrix;
+	XMMATRIX                            mScaleMatrix;
+	float                               mScaleFactor = 1.0f;
 
 
 	void LoadPipeline();
